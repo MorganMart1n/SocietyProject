@@ -1,0 +1,4 @@
+body{background-color: rgb(20, 20, 20);}
+.Container{display: flex;}
+.inner-Nav{margin-left: 17%; margin-top: 1%; text-decoration: none; text-underline-offset: 10px; color: white; text-shadow: 3px 3px 2px rgb(0, 0, 0);}
+.inner-Nav:hover{color: aquamarine; text-decoration: underline 0.15em white; transition: text-decoration-color 300ms;}
