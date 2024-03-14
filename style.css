@@ -43,3 +43,5 @@ input{margin-left: 10px;}
 .collums{display: flex; width: 100%; align-items: center; justify-content: space-evenly; color: white; font-family: block;}
 .div1, .div2, .div3{font-family: block; justify-content: center; align-self: center; border: 5px solid white; border-radius: 20%; padding: 20px; margin-top: 20px;}
 .rule-Images{width: 250px; height: 250px; margin-left: 150px;}
+.btn{padding: 10px; justify-content: center; align-self: center; border: 2px solid black; border-radius: 20px; margin-bottom: 5%;}
+.power{display: flex; justify-content: center; align-content: center; color: white; font-family: block;}

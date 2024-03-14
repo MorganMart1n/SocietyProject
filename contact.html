@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio Society</title>
+    <script src="js/Script.js"></script>
+    <title>Rules Society</title>
 </head>
 <body>
+       <!--Navigation bar-->
     <nav class="Container">
         <a class="logo-Nav" href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
-        <a class="inner-Nav" href="portfolio.html">Portfolio</a>
+        <a class="inner-Nav" href="Rules.html">Rules</a>
         <a class="inner-Nav" href="gallery.html">gallery</a>
         <a class="inner-Nav" href="members.html">members</a>
         <a class="inner-Nav" href="event.html">Events</a>
         <a class="inner-Nav" href="contact.html">Contact</a>
     </nav>
+       <!--Container that holds the contact form details-->
     <section class="contact-Container">
         <h1 class="contact">Contact Us!</h1>
     </section>
     <section class="form">
-        <form action="/action_page.php">
+        <form>
+            <!--Form details-->
             <label for="fname">Full Name:</label><br>
             <input type="text" id="fullName" name="fullName"><br><br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email"><br><br>
             <label for="message">Message:</label><br>
-            <textarea rows="5" cols="25" name="message" form="/action_page">Enter text here...</textarea>
-            <br><br>
-            <input class="Submit"type="submit" value="Submit">
+            <textarea rows="5" cols="25" name="message">Enter text here...</textarea>
+            <br><br>   
+            <!--Uses onclick to then alert user that information is submitted-->
+            <button onclick="Submitted()" class="Submit"type="button">Submit</button>
           </form>
     </section>
 </body>
