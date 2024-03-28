@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="js/Script.js"></script>
     <title>Rules Society</title>
@@ -21,22 +23,23 @@
     <section class="contact-Container">
         <h1 class="contact">Contact Us!</h1>
     </section>
-                <!--Form details-->
-    <section class="form">
-        <a class="twitter-timeline" href="https://twitter.com/FrankismReligin?ref_src=twsrc%5Etfw">Tweets by FrankismReligin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <form class="formDetail">
-            <label for="fname">Full Name:</label><br>
+    <div class="main-Element">
+    <div class="main-Form">
+        <form>
+            <!--Form details-->
+            <label class="fname">Full Name:</label><br>
             <input type="text" id="fullName" name="fullName"><br><br>
-            <label for="email">Email:</label><br>
+            <label for="email"class="email" >Email:</label><br>
             <input type="email" id="email" name="email"><br><br>
-            <label for="message">Message:</label><br>
+            <label class="message">Message:</label><br>
             <textarea rows="5" cols="25" name="message">Enter text here...</textarea>
             <br><br>   
             <!--Uses onclick to then alert user that information is submitted-->
-            <button onclick="Submitted()" class="Submit"type="button">Submit</button>
+            <button onclick="Submitted()" class="Submit" type="button">Submit</button>
           </form>
-
-    </section>
+        </div>
+          <a class="twitter-timeline" href="https://twitter.com/FrankismReligin?ref_src=twsrc%5Etfw">Tweets by FrankismReligin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+   </div>
     
 </body>
 </html>

@@ -2,18 +2,19 @@
     font-family: block;
     src: url(font/rev.otf);
   }
-body{background-color:#0A0F0D;margin:0;padding:0;}
-.Container{display:flex;justify-content:space-between;padding:10px 0px;background-color:#3CBBB1;width:100%; max-width: 100%;}
+  margin{margin: 0;, padding: 0;}
+body{background-color:#202A25;margin:0;padding:0;}
+.Container{display:flex;justify-content:space-between;padding:10px 0px;background-color:#232528;width:100%; max-width: 100%;}
 .inner-Nav{ font-family: block; margin-right:10%;margin-top:1%;text-decoration:none;text-underline-offset:10px;color:white;text-shadow:3px 3px 2px rgb(0, 0, 0);}
-.inner-Nav:hover{color:darkgreen;text-decoration:underline 0.15em white;transition:text-decoration-color 300ms;}
-.logo{height:50px; margin-top: 5px; color: white;}
+.inner-Nav:hover{color:aquamarine;text-decoration:underline 0.15em white;transition:text-decoration-color 300ms;}
+.logo{height:50px; margin-top: 5px;}
 .logo-Nav{text-underline-offset:10px;color:white;text-shadow:3px 3px 2px rgb(0, 0, 0);}
-.image-Box{display: flex; width:100%; margin-top:15% ; justify-content: center; align-items: center;}
+.image-Box{display: flex; width:100%; margin-bottom: 50px; justify-content: center; align-items: center;}
 .image1{width: 300px; height: 300px;}
 .image2{width: 300px; height: 300px;}
 .image1:hover{ box-shadow: 0px 0px 20px white;}
 .image2:hover{ box-shadow: 0px 0px 20px white;}
-.welcome-text{display: flexbox; width: 500px; margin: 100px; color: white; font-family: block; box-shadow: -12px -5px 40px -26px rgba(0,0,0,1); border: 5px solid white; border-radius: 20px; text-align: center;}
+.welcome-text{display: flexbox; width: 500px; margin: 10px; color: white; font-family: block; box-shadow: -12px -5px 40px -26px rgba(0,0,0,1); border: 5px solid white; border-radius: 20px; text-align: center;}
 .welcome-text:hover{box-shadow: 10px 10px 20px rgba(255, 255, 255, .3);}
 .ourTeam-Section{display: flex; width: 100%; align-items: center; justify-content: space-evenly; margin-top: 100px;}
 .member{width: 150px; height: 150px; margin-right: 50px; box-shadow: -12px -5px 40px -26px rgba(0,0,0,1); border: 5px solid white; border-radius: 20px;}
@@ -33,9 +34,7 @@ Table{display: flex; align-content: center; justify-content: center; margin-top:
 .content-text{font-family: block; font-size: 20px; padding: 50px; border: 1px solid white; color: white;}
 .events{font-family: block; justify-items: center; color: white;}
 .events-Container{display: flex; width: 100%; align-items: center; justify-content:center; margin-top: 100px; color: white;}
-.form{ margin-top:50px; color: white; display: grid; grid-template-columns: 50% 50%; justify-content: center; align-content: center; font-family: block; font-size: 25px; border: 5px solid white; }
-.formDetail{ margin-top: 100px; padding-left: 150px;}
-.twitter-timeline{width: 50%; padding-top: 25px; padding-bottom: 25px; padding-left: 150px;}
+.form{color: white; display: flex; justify-content: center; align-content: center; margin-top: 10%; font-family: block; font-size: 25px; border: 5px solid white; padding: 50px; }
 textarea, .Submit{font-family: block;}
 .Submit{padding: 10px; justify-content: center; margin-left:30%;}
 label{margin-left: 50px;}
@@ -43,7 +42,21 @@ input{margin-left: 10px;}
 .contact{font-family: block; justify-items: center; color: white;}
 .contact-Container{display: flex; width: 100%; align-items: center; justify-content:center; margin-top: 50px; color: white;}
 .collums{display: flex; width: 100%; align-items: center; justify-content: space-evenly; color: white; font-family: block;}
-.div1, .div2, .div3{font-family: block; justify-content: center; align-self: center; border: 5px solid white; border-radius: 20%; padding: 20px; margin-top: 20px;}
+.div1, .div2, .div3{font-family: block; justify-content: center; align-self: center; border: 5px solid white; border-radius: 20%; padding: 10px; margin-top: 20px;}
 .rule-Images{width: 250px; height: 250px; margin-left: 150px;}
-.btn{padding: 10px; justify-content: center; align-self: center; border: 2px solid black; border-radius: 20px; margin-bottom: 5%;}
+.button{padding: 10px; justify-content: center; align-self: center; border: 2px solid black; background-color: white; border-radius: 20px; margin-bottom: 5%;}
 .power{display: flex; justify-content: center; align-content: center; color: white; font-family: block;}
+.main-Element{display: flex;}
+.main-Form, .twitter-timeline{flex:50%; padding-top:50px;}
+.main-Form{margin-left: 250px;}
+email, .fname{color: white;}
+.rule-Title{font-size: 50px; justify-content: center; align-items: center; margin-left: 150px;}
+.rule-Text{font-size: 25px;}
+.proof{padding: 10px; padding-left: 100px; padding-right: 100px;  justify-content: center; align-self: center; border: 2px solid black; background-color: white; border-radius: 20px; margin-left: 40%; margin-top: 5%;}
+.video{ box-shadow: -12px -5px 40px -26px rgba(0,0,0,1); border: 5px solid white; border-radius: 20px;}
+.login-container{display: flex;}
+.login-title{margin-left: 45%; margin-top: 10%; color: white;}
+.createAccount-title{margin-left: 40%; margin-top: 10%; color: white;}
+.login-form{margin-left: 35%; margin-top: 10%;}
+.createAccount-form{margin-left: 30%; margin-top: 10%;}
+.uName, .pass, emai{box-shadow: -12px -5px 40px -26px rgba(0,0,0,1); border: 5px solid white; border-radius: 20px;}
