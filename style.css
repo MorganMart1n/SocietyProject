@@ -8,7 +8,7 @@ body{background-color:#202A25;margin:0;padding:0;}
 .inner-Nav{ font-family: block; margin-right:10%;margin-top:1%;text-decoration:none;text-underline-offset:10px;color:white;text-shadow:3px 3px 2px rgb(0, 0, 0);}
 .inner-Nav:hover{color:aquamarine;text-decoration:underline 0.15em white;transition:text-decoration-color 300ms;}
 .logo{height:50px; margin-top: 5px;}
-.logo-Nav{text-underline-offset:10px;color:white;text-shadow:3px 3px 2px rgb(0, 0, 0);}
+.logo-Nav{text-underline-offset:10px;color:white;text-shadow:3px 3px 2px rgb(0, 0, 0);padding-right: 50px;}
 .image-Box{display: flex; width:100%; margin-bottom: 50px; justify-content: center; align-items: center;}
 .image1{width: 300px; height: 300px;}
 .image2{width: 300px; height: 300px;}
@@ -43,16 +43,18 @@ input{margin-left: 10px;}
 .contact-Container{display: flex; width: 100%; align-items: center; justify-content:center; margin-top: 50px; color: white;}
 .collums{display: flex; width: 100%; align-items: center; justify-content: space-evenly; color: white; font-family: block;}
 .div1, .div2, .div3{font-family: block; justify-content: center; align-self: center; border: 5px solid white; border-radius: 20%; padding: 10px; margin-top: 20px;}
-.rule-Images{width: 250px; height: 250px; margin-left: 150px;}
+.rule-Images{width: 250px; height: 250px; margin-left: 50px; padding-bottom: 30px;}
 .button{padding: 10px; justify-content: center; align-self: center; border: 2px solid black; background-color: white; border-radius: 20px; margin-bottom: 5%;}
 .power{display: flex; justify-content: center; align-content: center; color: white; font-family: block;}
 .main-Element{display: flex;}
 .main-Form, .twitter-timeline{flex:50%; padding-top:50px;}
-.main-Form{margin-left: 250px;}
-email, .fname{color: white;}
+.main-Form{margin-left: 350px;}
+.email, .fname, .message{color: white;}
 .rule-Title{font-size: 50px; justify-content: center; align-items: center; margin-left: 150px;}
+.power{margin-top: 50px; margin-bottom: 150px;}
 .rule-Text{font-size: 25px;}
-.proof{padding: 10px; padding-left: 100px; padding-right: 100px;  justify-content: center; align-self: center; border: 2px solid black; background-color: white; border-radius: 20px; margin-left: 40%; margin-top: 5%;}
+.evidence-Form{display: flex; justify-content: center; align-items: center;margin-top: 150px; margin-bottom: 50px;}
+.proof{padding: 10px;box-shadow: -12px -5px 40px -26px rgba(0,0,0,1); border: 3px solid rgb(0, 0, 0); border-radius: 30px; background-color: white; border-radius:}
 .video{ box-shadow: -12px -5px 40px -26px rgba(0,0,0,1); border: 5px solid white; border-radius: 20px;}
 .login-container{display: flex;}
 .login-title{margin-left: 45%; margin-top: 10%; color: white;}
@@ -60,3 +62,5 @@ email, .fname{color: white;}
 .login-form{margin-left: 35%; margin-top: 10%;}
 .createAccount-form{margin-left: 30%; margin-top: 10%;}
 .uName, .pass, emai{box-shadow: -12px -5px 40px -26px rgba(0,0,0,1); border: 5px solid white; border-radius: 20px;}
+.Rbtn{box-shadow: -12px -5px 40px -26px rgba(0,0,0,1); border: 10px solid white; border-radius: 50px; float: right;}
+
