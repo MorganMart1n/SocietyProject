@@ -20,5 +20,3 @@ function createAccount(){
     alert("You've created an account. You are now logged in.");
     redirect();
 }
-
-

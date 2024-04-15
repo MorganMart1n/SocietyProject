@@ -61,5 +61,29 @@
             <th class="content-text">Lollygagging and Tomfoolery</th>
         </tr>
     </table>
+    <div class="inputEvents-Container">
+        <form class="inputEvents" name="event">
+            <fieldset>
+                <input name="event_title" type="text" placeholder="Idea: Possible Nefarious acts?">
+                <input name="event_date" type="date">
+                <button type="button" onclick="submitEvent()">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+    <script>
+        function submitEvent() {
+            var title = document.forms["event"]["event_title"].value;
+            var date = document.forms["event"]["event_date"].value;
+            if (title == "") {
+                alert("Please enter a Title");
+            } else {
+                if (date.length == 0) {
+                    alert("Please enter a valid date");
+                } else {
+                    alert("Event submitted! The society will decide your fate!");
+                }
+            }
+        }
+    </script>    
 </body>
 </html>
