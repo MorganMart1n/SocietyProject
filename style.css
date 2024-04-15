@@ -62,5 +62,6 @@ input{margin-left: 10px;}
 .Rbtn{box-shadow: -12px -5px 40px -26px rgba(0,0,0,1); border: 10px solid white; border-radius: 50px; float: right;}
 .inputEvents-Container{display: flex; width: 100%; align-items: center; justify-content:center; margin-top: 100px; color: white;}
 .inputEvents{font-family: block; align-items: center; justify-items: center; color: white; margin-bottom: 40px;}
-
+.socials{display: flex; width: 100%; align-items: center; justify-content: center;}
+.socialImages{background-color: white; margin-left: 25px;}
 
